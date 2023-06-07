@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Notifications page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="subheader">
+          <h1 class="notifications">Notifications</h1>
+          <p class="num">3</p>
+        </div>
+        <p class="marked" onclick="unmark()">Mark all as read</p>
+      </header>
+      <main>
+        <div id="mark" class="markweber">
+          <img
+            class="profile"
+            src="./assets/images/avatar-mark-webber.webp"
+            alt=""
+          />
+          <section>
+            <p class="descr">
+              <strong class="name">Mark Webber</strong> reacted to your recent
+              post <strong>My first tournament today!</strong
+              ><strong class="dot"></strong>
+            </p>
+            <p class="time">1m ago</p>
+          </section>
+        </div>
+        <div id="mark" class="angela">
+          <img
+            class="profile"
+            src="./assets/images/avatar-angela-gray.webp"
+            alt=""
+          />
+          <section>
+            <p class="descr">
+              <strong class="name">Angela Gray</strong> followed you
+              <strong class="dot"></strong>
+            </p>
+            <p class="time">5m ago</p>
+          </section>
+        </div>
+        <div id="mark" class="Jacob">
+          <img
+            class="profile"
+            src="./assets/images/avatar-jacob-thompson.webp"
+            alt=""
+          />
+          <section>
+            <p class="descr">
+              <strong class="name">Jacob Thompson</strong>has joined your group
+              <strong>Chess Club</strong> <strong class="dot"></strong>
+            </p>
+            <p class="time">1 day ago</p>
+          </section>
+        </div>
+        <div class="Rizky">
+          <img
+            class="profile"
+            src="./assets/images/avatar-rizky-hasanuddin.webp"
+            alt=""
+          />
+          <div>
+            <section>
+              <p class="descr">
+                <strong class="name">Rizky Hasanuddin</strong> sent you a
+                private message
+              </p>
+              <p class="time">5 days ago</p>
+            </section>
+            <div class="message">
+              Hello, thanks for setting up the Chess Club. I’ve been a member
+              for a few weeks now and I’m already having lots of fun and
+              improving my game.
+            </div>
+          </div>
+        </div>
+        <div class="kimberly">
+          <div class="subkim">
+            <img
+              class="profile"
+              src="./assets/images/avatar-kimberly-smith.webp"
+              alt=""
+            />
+            <section>
+              <p class="descr">
+                <strong class="name">Kimberly Smith</strong> commented on your
+                picture
+              </p>
+              <p class="time">1 week ago</p>
+            </section>
+          </div>
+          <img class="chess" src="./assets/images/image-chess.webp" alt="" />
+        </div>
+        <div class="nathan">
+          <img
+            class="profile"
+            src="./assets/images/avatar-nathan-peterson.webp"
+            alt=""
+          />
+          <section>
+            <p class="descr">
+              <strong class="name">Nathan Peterson</strong> reacted to your
+              recent post
+              <strong>5 end-game strategies to increase your win rate</strong>
+            </p>
+            <p class="time">2 weeks ago</p>
+          </section>
+        </div>
+        <div class="anna">
+          <img
+            class="profile"
+            src="./assets/images/avatar-anna-kim.webp"
+            alt=""
+          />
+          <section>
+            <p class="descr">
+              <strong class="name">Anna Kim</strong> left the group
+              <strong>Chess Club</strong>
+            </p>
+            <p class="time">2 weeks ago</p>
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #f7fafd;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+}
+.container {
+  width: 90%;
+  padding: 2.4rem 1.6rem;
+  background: #ffffff;
+  box-shadow: 0px 20px 60px rgba(73, 97, 168, 0.05);
+  border-radius: 15px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notifications {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  color: #1c202b;
+}
+.subheader {
+  display: flex;
+  gap: 0.9rem;
+}
+.num {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a327b;
+  border-radius: 6px;
+  width: 3.2rem;
+  height: 2.5rem;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.marked {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #5e6778;
+  cursor: pointer;
+}
+.marked:hover {
+  color: #0a327b;
+}
+
+.nathan,
+.anna {
+  display: flex;
+  padding: 1.8rem 2rem 1.7rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  margin-top: 2.4rem;
+}
+.markweber,
+.Jacob,
+.angela {
+  display: flex;
+  background: #f7fafd;
+  padding: 1.8rem 2rem 1.7rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  margin-top: 2.4rem;
+  position: relative;
+}
+.kimberly {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8rem 2rem 1.7rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  margin-top: 2.4rem;
+}
+.subkim {
+  display: flex;
+}
+.profile {
+  /* border: 1px solid rgba(0, 0, 0, 0.0463833); */
+  width: 3.9rem;
+  height: 3.9rem;
+  margin-right: 1.3rem;
+}
+.time {
+  color: #939cad;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.descr {
+  color: #5e6778;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+.name {
+  color: #1c202b;
+}
+
+.Rizky {
+  display: flex;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  margin-top: 2.6rem;
+  padding: 1.8rem 2rem 1.7rem;
+}
+
+.message {
+  background: #ffffff;
+  border: 1px solid #dde7ee;
+  border-radius: 5px;
+  color: #5e6778;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 1.6rem;
+  margin-top: 1.2rem;
+  cursor: pointer;
+}
+.message:hover {
+  background: #e5effa;
+}
+.chess {
+  background: url(Image.png);
+  border-radius: 7px;
+  width: 3.9rem;
+  height: 3.9rem;
+  cursor: pointer;
+}
+strong:hover {
+  cursor: pointer;
+  color: #0a327b;
+}
+.dot {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: #f65552;
+  position: absolute;
+  margin-top: 0.6rem;
+  margin-left: 0.6rem;
+}
+.remove {
+  display: none;
+}
+
+@media screen and (min-width: 499px) {
+  .container {
+    max-width: 53rem;
+    padding: 3rem;
+  }
+}
